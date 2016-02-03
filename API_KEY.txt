@@ -1,0 +1,11 @@
+1ccdd9a3775f51017eaeeb899a087215
+
+We recommend that each student obtain a key via the following instructions, and include the unique key for the build by adding the following line to [USER_HOME]/.gradle/gradle.properties
+
+MyOpenWeatherMapApiKey="1ccdd9a3775f51017eaeeb899a087215"
+
+http://api.openweathermap.org/data/2.5/forecast/city?id=524901&APPID={APIKEY}
+
+{"_id":1808926,"name":"Hangzhou","country":"CN","coord":{"lon":120.161423,"lat":30.29365}}
+
+http://api.openweathermap.org/data/2.5/forecast/daily?id=1808926,CN&mode=json&units=metric&cnt=7&APPID=1ccdd9a3775f51017eaeeb899a087215
